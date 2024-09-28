@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="description" content="bootstrap form">
+		<meta name="keywords" content="bootstrap,icon,form">
+		<meta name="robots" content="index, follow">
+		<meta name="language" content="English">
+		<meta name="revisit-after" content="7 days">
+		<meta name="author" content="Shayla Sharmin">
+
+		<title>Bootstrap form</title>
+
+		<!--css links-->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+
+		<!--icons link-->
+		<link rel="stylesheet" href="css/bootstrap-icons.css">
+	</head>
+	<body>
+		<!--one container end-->
+		<div class="container my-5">
+			<form>
+				<div class="mb-3">
+				    <label for="email1" class="form-label">Email address</label>
+				    <input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter your email adress" required>
+				</div>
+
+				<div class="mb-3">
+				    <label for="password1" class="form-label">Password</label>
+				    <input type="password" class="form-control password1" id="password1" name="password1" placeholder="Enter your password" required>
+				</div>
+
+				<div class="mb-3 form-check">
+				    <input type="checkbox" class="form-check-input check1" id="check1" name="check1">
+				    <label class="form-check-label" for="check1">Check me out</label>
+				</div>
+
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		<!--one container start-->
+
+		<!--another container start-->
+		<div class="container my-5">
+			<form class="row g-3 ">
+
+				<div class="col-md-6">
+				   <label for="email2" class="form-label">Email</label>
+				   <input type="email" class="form-control email2" id="email2" name="email2" placeholder="Enter your email adress" required>
+				</div>
+
+				<div class="col-md-6">
+				   <label for="password2" class="form-label">Password</label>
+				   <input type="password" class="form-control password2" id="password2" name="password2" placeholder="Enter your password" required>
+				</div>
+
+				<div class="col-12">
+				   <label for="address2" class="form-label">Address</label>
+				   <input type="text" class="form-control address2" id="address2" name="address2" placeholder="Type your address" required>
+				</div>
+				
+				<div class="col-md-6">
+				   <label for="City2" class="form-label">City</label>
+				   <input type="text" class="form-control City2" id="City2" name="City2" placeholder="Type your city name" required>
+				</div>
+
+				<div class="col-md-4">
+				   <label for="district2" class="form-label">District</label>
+				   <select id="district2" class="form-select district2" name="district2">
+				    	<option selected>Dhaka</option>
+				    	<option>Khulna</option>
+				    	<option>Rajshahi</option>
+				    	<option>Barishal</option>
+				    	<option>Shylet</option>
+				    </select>
+				  </div>
+				  
+				  <div class="col-12">
+				    <div class="form-check">
+				      <input class="form-check-input" type="checkbox" id="check2" name="check2">
+				      <label class="form-check-label" for="check2">
+				        Check me out
+				      </label>
+				    </div>
+				  </div>
+
+				  <div class="col-12">
+				    <button type="submit" class="btn btn-danger">Sign in</button>
+				  </div>
+			</form>
+		</div>
+		<!--another container end-->
+
+		<!--third container start-->
+		<div class="container">
+			<form>
+				  <div class="row mb-3">
+				    <label for="email3" class="col-sm-2 col-form-label">Email</label>
+				    <div class="col-sm-10">
+				      <input type="email" class="form-control email3" id="email3" name="email3" required>
+				    </div>
+				  </div>
+
+				  <div class="row mb-3">
+				    <label for="password3" class="col-sm-2 col-form-label">Password</label>
+				    <div class="col-sm-10">
+				      <input type="password" class="form-control password3" id="password3" name="password3" required>
+				    </div>
+				  </div>
+
+				  <fieldset class="row mb-3">
+				    <legend class="col-form-label col-sm-2 pt-5">Radios</legend>
+				    <div class="col-sm-10">
+
+				      <div class="form-check mb-2">			      	
+				        <input class="form-check-input" type="radio" name="radios1" id="radios1" value="option1" checked>
+				        <label class="form-check-label" for="radios1">
+				          First radio
+				        </label>
+				      </div>
+
+				      <div class="form-check mb-2">
+				        <input class="form-check-input" type="radio" name="radios2" id="radios2" value="option2">
+				        <label class="form-check-label" for="radios2">
+				          Second radio
+				        </label>
+				      </div>
+
+				      <div class="form-check mb-2 disabled">
+				        <input class="form-check-input" type="radio" name="radios3" id="radios3" value="option3" disabled>
+				        <label class="form-check-label" for="gridRadios3">
+				          Third disabled radio
+				        </label>
+				      </div>
+				    </div>
+				  </fieldset>
+
+				  <div class="row mb-3">
+				    <div class="col-sm-10 offset-sm-2">
+				      <div class="form-check">
+				        <input class="form-check-input" type="checkbox" id="check1" name="check1">
+				        <label class="form-check-label" for="check1">
+				          Example checkbox
+				        </label>
+				      </div>
+				    </div>
+				  </div>
+
+				  <button type="submit" class="btn btn-primary">Sign in</button>
+
+			</form>
+		</div>
+		
+		<!--third container end-->
+
+		<!--fourth container start-->
+			<div class="container my-5">
+				<form class="row gx-3 gy-2 align-items-center">
+					  
+					  <div class="col-sm-3">
+					    <label class="visually-hidden" for="visual1">Name</label>
+					    <input type="text" class="form-control visual1" id="visual1" name="visual1" placeholder="showing name" required>
+					  </div>
+
+					  <div class="col-sm-3">
+					    <label class="visually-hidden" for="visual2">Username</label>
+					    <div class="input-group">
+					      <div class="input-group-text">@</div>
+					      <input type="text" class="form-control visual2" id="visual2" name="visual2" placeholder="Username" required>
+					    </div>
+					  </div>
+
+					  <div class="col-sm-3">
+					    <label class="visually-hidden" for="select1">Preference</label>
+					    <select class="form-select select1" id="select1" name="select1">
+					      <option selected>Choose...</option>
+					      <option value="1">One</option>
+					      <option value="2">Two</option>
+					      <option value="3">Three</option>
+					    </select>
+					  </div>
+
+					  <div class="col-3">
+					    <div class="form-check">
+					      <input class="form-check-input check4" type="checkbox" id="check4" name="check4">
+					      <label class="form-check-label" for="check4">
+					        Remember me
+					      </label>
+					    </div>
+					  </div>
+
+					  <div class="col-12 my-5">
+					    <button type="submit" class="btn btn-danger bo">Submit</button>
+					  </div>
+				</form>
+			</div>
+		<!--fourth container end-->
+
+		<!--validation part start-->
+		<div class="container">
+			<form class="row g-3 my-5 needs-validation" novalidate>
+			  <div class="col-md-4">
+			    <label for="valid1" class="form-label">First name</label>
+			    <input type="text" class="form-control valid1" id="valid1" value="Shayla" required>
+			    <div class="valid-feedback">
+			      Looks good!
+			    </div>
+			    <div class="invalid-feedback">
+			      Please enter your first name.
+			    </div>
+			  </div>
+			  <div class="col-md-4">
+			    <label for="valid2" class="form-label">Last name</label>
+			    <input type="text" class="form-control valid2" id="valid2" value="Sharmin" required>
+			    <div class="valid-feedback">
+			      Looks good!
+			    </div>
+			    <div class="invalid-feedback">
+			      Please enter your last name.
+			    </div>
+			  </div>
+			  <div class="col-md-4">
+			    <label for="valid3" class="form-label">Username</label>
+			    <div class="input-group has-validation">
+			      <span class="input-group-text" id="inputGroupPrepend">@</span>
+			      <input type="text" class="form-control valid3" id="valid3" required>
+			      <div class="invalid-feedback">
+			        Please choose a username.
+			      </div>
+			       <div class="valid-feedback">
+			        Please enter your valid username.
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-md-6">
+			    <label for="valid4" class="form-label">City</label>
+			    <input type="text" class="form-control valid4" id="valid4" required>
+			    <div class="invalid-feedback">
+			      Please provide a valid city.
+			    </div>
+			  </div>
+			  <div class="col-md-3">
+			    <label for="valid5" class="form-label">State</label>
+			    <select class="form-select valid5" id="valid5" required>
+			      <option selected disabled value="">Choose a state..</option>
+			      <option>Chattagram</option>
+			      <option>Rajshahi</option>
+			      <option>Shylet</option>
+			      <option>Barishal</option>
+			      <option>Mymensing</option>
+			    </select>
+			    <div class="invalid-feedback">
+			      Please select a valid state.
+			    </div>
+			  </div>
+			  <div class="col-md-3">
+			    <label for="valid6" class="form-label">Zip</label>
+			    <input type="text" class="form-control valid6" id="valid6" required>
+			    <div class="invalid-feedback">
+			      Please provide a valid zip.
+			    </div>
+			  </div>
+			  <div class="col-12">
+			    <div class="form-check">
+			      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+			      <label class="form-check-label" for="invalidCheck">
+			        Agree to terms and conditions
+			      </label>
+			      <div class="invalid-feedback">
+			        You must agree before submitting.
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-12">
+			    <button class="btn btn-primary" type="submit">Submit form</button>
+			  </div>
+			</form>	
+		</div>
+		<!--validation part end-->
+
+		<!--file part start-->
+		<div class="container my-5 bg-faded">
+			<div class="mb-3">
+				<label for="formFile" class="form-label">Default file input example</label>
+				<input class="form-control" type="file" id="formFile">
+			</div>
+
+			<div class="mb-3">
+				<label for="formFileMultiple" class="form-label">Multiple files input example</label>
+				<input class="form-control" type="file" id="formFileMultiple" multiple>
+			</div>
+
+			<div class="mb-3">
+				<label for="formFileDisabled" class="form-label">Disabled file input example</label>
+				<input class="form-control" type="file" id="formFileDisabled" disabled>
+			</div>
+
+			<div class="mb-3">
+				<label for="formFileSm" class="form-label">Small file input example</label>
+				<input class="form-control form-control-sm" id="formFileSm" type="file">
+			</div>
+
+			<div>
+				<label for="formFileLg" class="form-label">Large file input example</label>
+				<input class="form-control form-control-lg" id="formFileLg" type="file">
+			</div>
+		</div>
+		<!--file part end-->
+
+		
+		<!--js links-->
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
